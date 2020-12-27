@@ -24,7 +24,7 @@ public class Client implements Serializable{
 	
 	private String cpf;
 	
-	private String dataNascimento;
+	private String nascimento;
 
 	public long getId() {
 		return id;
@@ -58,12 +58,12 @@ public class Client implements Serializable{
 		this.cpf = cpf;
 	}
 
-	public String getDataNascimento() {
-		return dataNascimento;
+	public String getNascimento() {
+		return nascimento;
 	}
 
-	public void setDataNascimento(String dataNascimento) {
-		this.dataNascimento = dataNascimento;
+	public void setNascimento(String nascimento) {
+		this.nascimento = nascimento;
 	}
 	
 	
